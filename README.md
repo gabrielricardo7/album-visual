@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# album-visual
 
-## Getting Started
+Album Visual é uma Aplicação de Galeria de Fotos, onde os usuários podem visualizar, pesquisar e ampliar imagens em uma interface agradável e responsiva.
 
-First, run the development server:
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Next.js**: Framework React para renderização do lado do servidor (SSR) e geração estática.
+- **Tailwind CSS**: Framework CSS para estilização rápida e eficiente.
+- **React-Icons**: Biblioteca de ícones usada na barra de busca.
+
+## Requisitos
+
+- Node.js (versão 22 ou superior)
+- npm ou yarn
+
+## Instalação
+
+1. **Clone o Repositório**
+
+```bash
+git clone https://github.com/gabrielricardo7/album-visual.git
+cd album-visual
+```
+
+2. **Instale as Dependências do Node.js**
+
+```bash
+npm install
+```
+
+ou, se estiver usando yarn:
+
+```bash
+yarn install
+```
+
+## Executando a Aplicação
+
+1. **Inicie o Servidor de Desenvolvimento**
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Acesse a Aplicação**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Abra o navegador e vá para [http://localhost:3000](http://localhost:3000) para ver a aplicação em execução.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Estrutura do Projeto
 
-## Learn More
+- **/app**: Contém as páginas do Next.js.
+- **/components**: Contém os componentes React utilizados na aplicação.
+- **/public**: Contém arquivos públicos, como imagens e ícones.
 
-To learn more about Next.js, take a look at the following resources:
+## Funções Principais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Visualização de Imagens**: Exibe imagens em uma grade responsiva.
+- **Barra de Pesquisa**: Permite pesquisar imagens por palavras-chave, ignorando acentos.
+- **Ampliação de Imagens**: Permite clicar em uma imagem para visualizá-la em tamanho maior.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
